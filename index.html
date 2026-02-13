@@ -9,7 +9,7 @@
   </head>
   <body>
     <header class="container mx-auto">
-      <div class="grid grid-cols-2 pt-[68px]">
+      <div class="grid grid-cols-1 md:grid-cols-2 pt-[68px]">
         <div class="laft space-y-6">
           <h1 class="text-7xl">
             It's good <br />
@@ -26,8 +26,21 @@
             Explore More
           </button>
         </div>
-        <div class="right">
+        <div class="rightf relative">
           <img src="images/banner.png" alt="" />
+          <div
+            class="rating-box px-[26px] py-[18px] flex gap-[13px] rounded max-w-[255px] shadow bg-white absolute bottom-5 left-22.5"
+          >
+            <div class="star flex justify-center items-center">
+              <img src="images/star.png" alt="" />
+            </div>
+            <div class="ratings">
+              <h4 class="text-3xl">
+                5.00 <br />
+                <p class="text-[16px] text-[#777777]">Trust Pilot Ratings</p>
+              </h4>
+            </div>
+          </div>
         </div>
       </div>
     </header>
